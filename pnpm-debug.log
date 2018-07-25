@@ -1,0 +1,150 @@
+---
+  0 debug pnpm:package-json: 
+    initial: 
+      name: "pnpm-global-pkg"
+      private: true
+      version: "1.0.0"
+    prefix: "/home/yanick/.npm/_npx/26559/pnpm-global/1"
+  1 debug pnpm:stage: "resolution_started"
+  2 debug pnpm:progress: 
+    pkg: 
+      name: "graph.mermaid"
+      rawSpec: "graph.mermaid@latest"
+    status: "installing"
+  3 debug pnpm:progress: 
+    status: "error"
+    pkg: 
+      name: "graph.mermaid"
+      rawSpec: "graph.mermaid@latest"
+  4 error pnpm: 
+    message: 
+      code: "ERR_PNPM_REGISTRY_META_RESPONSE_404"
+      uri: "https://registry.npmjs.org/graph.mermaid"
+      response: 
+        body: 
+          _readableState: 
+            objectMode: false
+            highWaterMark: 16384
+            buffer: 
+              head: 
+                data: 
+                  type: "Buffer"
+                  data: 
+                    - 123
+                    - 34
+                    - 101
+                    - 114
+                    - 114
+                    - 111
+                    - 114
+                    - 34
+                    - 58
+                    - 34
+                    - 78
+                    - 111
+                    - 116
+                    - 32
+                    - 102
+                    - 111
+                    - 117
+                    - 110
+                    - 100
+                    - 34
+                    - 125
+                next: null
+              tail: 
+                data: 
+                  type: "Buffer"
+                  data: 
+                    - 123
+                    - 34
+                    - 101
+                    - 114
+                    - 114
+                    - 111
+                    - 114
+                    - 34
+                    - 58
+                    - 34
+                    - 78
+                    - 111
+                    - 116
+                    - 32
+                    - 102
+                    - 111
+                    - 117
+                    - 110
+                    - 100
+                    - 34
+                    - 125
+                next: null
+              length: 1
+            length: 21
+            pipes: null
+            pipesCount: 0
+            flowing: null
+            ended: true
+            endEmitted: false
+            reading: false
+            sync: false
+            needReadable: false
+            emittedReadable: true
+            readableListening: false
+            resumeScheduled: false
+            destroyed: false
+            defaultEncoding: "utf8"
+            awaitDrain: 0
+            readingMore: false
+            decoder: null
+            encoding: null
+          readable: true
+          domain: null
+          _events: {}
+          _eventsCount: 2
+          _writableState: 
+            objectMode: false
+            highWaterMark: 16384
+            finalCalled: false
+            needDrain: false
+            ending: true
+            ended: true
+            finished: true
+            destroyed: false
+            decodeStrings: true
+            defaultEncoding: "utf8"
+            length: 0
+            writing: false
+            corked: 0
+            sync: false
+            bufferProcessing: false
+            writecb: null
+            writelen: 0
+            bufferedRequest: null
+            lastBufferedRequest: null
+            pendingcb: 0
+            prefinished: true
+            errorEmitted: false
+            bufferedRequestCount: 0
+            corkedRequestsFree: 
+              next: null
+              entry: null
+          writable: false
+          allowHalfOpen: true
+          _transformState: 
+            needTransform: false
+            transforming: false
+            writecb: null
+            writechunk: null
+            writeencoding: "buffer"
+        size: 0
+        timeout: 0
+        url: "https://registry.npmjs.org/graph.mermaid"
+        status: 404
+        statusText: "Not Found"
+        headers: {}
+      package: "graph.mermaid"
+    err: 
+      name: "Error"
+      message: "404 Not Found: graph.mermaid (via https://registry.npmjs.org/graph.mermaid)"
+      code: "ERR_PNPM_REGISTRY_META_RESPONSE_404"
+      stack: "Error: 404 Not Found: graph.mermaid (via https://registry.npmjs.org/graph.mermaid)\n    at /home/yanick/.nvm/versions/node/v8.9.4/lib/node_modules/pnpm/lib/node_modules/@pnpm/npm-resolver/lib/pickPackage.js:103:25\n    at Generator.next (<anonymous>)\n    at fulfilled (/home/yanick/.nvm/versions/node/v8.9.4/lib/node_modules/pnpm/lib/node_modules/@pnpm/npm-resolver/lib/pickPackage.js:4:58)\n    at <anonymous>\n    at process._tickCallback (internal/process/next_tick.js:188:7)"
