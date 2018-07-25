@@ -10,6 +10,7 @@
   "author": "Yanick Champoux <yanick@babyl.ca> (http://techblog.babyl.ca)",
   "license": "ISC",
   "dependencies": {
+    "mermaid": "^8.0.0-rc.8",
     "mermaid.cli": "^0.5.1"
   }
 }
