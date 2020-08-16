@@ -4,3 +4,6 @@
 [submodule "aotds-battle"]
 	path = aotds-battle
 	url = gh:yanick/aotds-battle
+[submodule "aotds-app"]
+	path = aotds-app
+	url = gh:yanick/aotds-app
