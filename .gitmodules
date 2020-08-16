@@ -1,0 +1,3 @@
+[submodule "aotds-docks"]
+	path = aotds-docks
+	url = gh:yanick/aotds-docks
