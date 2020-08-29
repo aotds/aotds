@@ -7,3 +7,6 @@
 [submodule "aotds-app"]
 	path = aotds-app
 	url = gh:yanick/aotds-app
+[submodule "aotds-rest"]
+	path = aotds-rest
+	url = git@github.com:aotds/aotds-rest.git
