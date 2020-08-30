@@ -1,4 +1,5 @@
 packages:
     - aotds-docks
-    - aotds-battle-engine
+    - aotds-battle
     - aotds-app
+    - aotds-rest
